@@ -50,8 +50,53 @@ turtle.done()
 
 # 3.task
 # С помощью turtle напиши своё имя по буквам. Используй команды penup(), pendown(), goto() и линии для построения каждой буквы.
-# 4.task
+import turtle
 
-# 5.task
+t = turtle.Turtle()
+t.speed(1)
+t.pensize(3)
 
-# 6.task
+# Буква R
+t.penup()
+t.goto(-200, 0)
+t.pendown()
+t.left(90)
+t.forward(100)
+t.right(90)
+t.circle(-25, 180)
+t.left(135)
+t.forward(70)
+
+# Буква O
+t.penup()
+t.goto(-90, 0)
+t.setheading(0)
+t.pendown()
+t.circle(50)
+
+# Буква M
+t.penup()
+t.goto(10, 0)
+t.setheading(90)
+t.pendown()
+t.forward(100)
+t.right(135)
+t.forward(70)
+t.left(90)
+t.forward(70)
+t.right(135)
+t.forward(100)
+
+# Буква A
+t.penup()
+t.goto(150, 0)
+t.setheading(75)
+t.pendown()
+t.forward(103)
+t.right(150)
+t.forward(103)
+t.backward(40)
+t.right(105)
+t.forward(37)
+
+turtle.done()
